@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  position: relative;
+
+}
+
+.map {
+  height: 250px;
+}
+
+
+.mapButton {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1000;
+  button {
+    background-color: rgba(0, 71, 117, 1);
+    border: none;
+  }
+  @media (max-width: 575.98px) {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 77%;
+    margin: auto;
+    width: 50%;
+  }
+}

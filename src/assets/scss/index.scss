@@ -1,0 +1,12 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@import "components/navlinks";
+@import "components/icon.scss";

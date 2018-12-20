@@ -1,0 +1,14 @@
+.pills {
+  border-top: 1px solid rgba(140, 140, 140, 1) !important;
+}
+
+.pill {
+  font-weight: bold;
+  padding: 1rem !important;
+  color: rgba(0, 150, 65, 1) !important;
+}
+
+.pillActive {
+  background-color: rgba(0, 150, 65, 1) !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
